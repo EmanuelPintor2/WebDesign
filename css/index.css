@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(88, 176, 181);
+}
+.presentacion{
+    background:linear-gradient(rgb(47, 147, 152), rgb(186, 216, 239));
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    border: 4px solid rgb(47, 146, 152);
+    border-radius: 30px;
+    color: rgb(60,60,60);
+}
+.modal-content{
+    background:linear-gradient(rgb(47, 147, 152), rgb(186, 216, 239));
+    border-radius: 40px;
+    border: 4px solid rgb(47, 146, 152);
+}
+.card-body{
+    text-align: center;
+    color: rgb(95, 95, 95);
+}

@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(47, 146, 152);
+}
+
+.col{
+    padding: 20px;
+}
+.card, .modal-content{
+    background:linear-gradient(rgb(47, 147, 152), rgb(186, 216, 239));
+    border-radius: 40px;
+    border: 4px solid rgb(47, 146, 152);
+}
+.card-body{
+    text-align: center;
+    color: rgb(95, 95, 95);
+}

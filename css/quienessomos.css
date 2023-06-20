@@ -1,0 +1,19 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(88, 176, 181);
+}
+.texto{
+    margin: 20px;
+    padding: 50px;
+    text-align: justify;
+}
+.encabezado{
+    text-align: center;
+}
+.encabezado img{
+    width: 200px;
+}
