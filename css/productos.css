@@ -2,11 +2,14 @@
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 nav{
     background-color: rgb(47, 146, 152);
 }
-
+.nav-item a{
+    color: #fff;
+}
 .col{
     padding: 20px;
 }

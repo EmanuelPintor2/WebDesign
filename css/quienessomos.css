@@ -2,11 +2,15 @@
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 nav{
     background-color: rgb(88, 176, 181);
 }
-.texto{
+.nav-item a{
+    color: #fff;
+}
+.caja{
     margin: 20px;
     padding: 50px;
     text-align: justify;
@@ -15,5 +19,5 @@ nav{
     text-align: center;
 }
 .encabezado img{
-    width: 200px;
+    width: 250px;
 }
