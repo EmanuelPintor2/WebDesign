@@ -11,9 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!-- NAVBAR formscontacto cards modales footer -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
@@ -25,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a target="_blank" class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
+            <a class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
           </li>
           <li class="nav-item">
-            <a target="_blank" href="productos.html" class="nav-link"><b>Productos</b></a>
+            <a href="productos.html" class="nav-link"><b>Productos</b></a>
           </li>
           <li class="nav-item">
-            <a target="_blank" class="nav-link" href="quienessomos.html"><b>Quienes somos</b></a>
+            <a class="nav-link" href="quienessomos.html"><b>Quienes somos</b></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html"><b>Contacto</b></a>
@@ -41,43 +42,70 @@
     </div>
   </nav>
 
+
   <!-- FORMULARIO CONTACTO -->
-  <div class="formu">
-    <form>
-      <h2>CONTACTO</h2>
-      <label>Nombre y Apellido</label>
-      <input type="text" name="nombre">
+  <div class="contact">
+    <div class="formu">
+      <form>
+        <h2>CONTACTO</h2>
+        <label>Nombre y Apellido</label>
+        <input type="text" name="nombre">
 
-      <label>Email</label>
-      <input type="email" name="email">
+        <label>Email</label>
+        <input type="email" name="email">
 
-      <label>Teléfono</label>
-      <input type="tel" name="telefono">
+        <label>Teléfono</label>
+        <input type="tel" name="telefono">
 
-      <label>Escriba su mensaje</label>
-      <textarea name="mensaje" rows="4"></textarea>
+        <label>Escriba su mensaje</label>
+        <textarea name="mensaje" rows="4"></textarea>
 
-      <input type="button" value="Enviar" id="button">
-    </form>
+        <input type="button" value="Enviar" id="button">
+      </form>
+    </div>
+    <div class="ubi">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.6672606371376!2d-68.55545316204946!3d-31.53329757592859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9681404b6bac830f%3A0x9349f14cfc2d7dae!2sAv.%20Paula%20Albarrac%C3%ADn%20de%20Sarmiento%20197%2C%20San%20Juan!5e0!3m2!1ses!2sar!4v1687832169339!5m2!1ses!2sar" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <div class="texto" style="padding:20px ;">
+    <h3 style="text-align:center; padding: 20px;">
+      COMUNICATE DE FORMA DIRECTA
+    </h3>
+    <div class="iconos" style="padding:20;text-align: center;">
+      <a href="https://walink.co/0e0556">2644832202</a>
+      <a href="https://www.facebook.com/messages/t/100094210688427">Facebook</a>         
+      <a href="https://www.instagram.com/direct/t/17849388420004209">Instagram</a>
+
+    </div>
   </div>
   <!-- FOOTER -->
-  <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <p class="col-md-4 mb-0 text-body-secondary">© 2023 Emanuel Pintor</p>
-    
-        <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-    
-        <ul class="nav col-md-4 justify-content-end">
-          <li class="nav-item"><a target="_blank" href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-          <li class="nav-item"><a target="_blank" href="productos.html" class="nav-link px-2 text-body-secondary">Productos</a></li>
-          <li class="nav-item"><a target="_blank" href="quienessomos.html" class="nav-link px-2 text-body-secondary">Quienes somos</a></li>
-          <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <ul>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="productos.html">Productos</a></li>
+         <li><a href="quienessomos.html">Quienes somos</a></li>
+         <li><a href="contacto.html">Contacto</a></li>
         </ul>
-      </footer>
-  </div>
+      </div>
+      <div class="box">
+        <h4>SEGUINOS</h4>
+        <div class="red-social">
+          <a href="https://www.facebook.com/profile.php?id=100094210688427" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/micanarg/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/Micanarg" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/@micanarg" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>Emanuel Pintor</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
+

@@ -11,37 +11,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 <body>
-    <!-- NAVBAR formscontacto cards modales footer -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-            <img src="./assets/logohorizontalblanco.png" alt="Logo" width="200" height="120" class="d-inline-block align-text-top">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a target="_blank" class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" href="productos.html" class="nav-link"><b>Productos</b></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="quienessomos.html"><b>Quienes somos</b></a>
-              </li>
-              <li class="nav-item">
-                <a target="_blank" class="nav-link" href="contacto.html"><b>Contacto</b></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./assets/logohorizontalblanco.png" alt="Logo" width="200" height="120" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html"><b>Inicio</b></a>
+          </li>
+          <li class="nav-item">
+            <a href="productos.html" class="nav-link"><b>Productos</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quienessomos.html"><b>Quienes somos</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html"><b>Contacto</b></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- PRESENTACIÓN  -->
     <div class="caja">
       <div class="encabezado">
-        <h1 style="text-align:center;">¿Quiénes somos?</h1>
+        <h1 style="text-align:center;padding: 20px;"><a name="linknosotros" id="linknosotros"> ¿Quiénes somos? </a></h1>
         <img style="align-items:center;" src="./assets/logohorizontalsinfondo.png" alt="">
       </div>
         <h4><b><br><br>¡Bienvenidos a MICAN, tu clínica veterinaria de confianza! </b><br></h4>
@@ -53,22 +57,97 @@
           <b>¡Te invitamos a visitar nuestra clínica y formar parte de nuestra familia en MICAN!</b>
         </p>
     </div>
-    <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-          <p class="col-md-4 mb-0 text-body-secondary">© 2023 Emanuel Pintor</p>
-      
-          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-      
-          <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a target="_blank" href="index.html" class="nav-link px-2 text-body-secondary">Inicio</a></li>
-            <li class="nav-item"><a target="_blank" href="productos.html" class="nav-link px-2 text-body-secondary">Productos</a></li>
-            <li class="nav-item"><a href="quienessomos.html" class="nav-link px-2 text-body-secondary">Quienes somos</a></li>
-            <li class="nav-item"><a target="_blank" href="contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
-          </ul>
-        </footer>
+    <!-- EQUIPO -->
+    <div class="containermarketing">
+      <h1 style="text-align:center;padding: 20px;"><b><a name="linkconoce" id="linkconoce" >NUESTRO EQUIPO</a></b></h1>  
+      <div class="row">
+        <div class="col-lg-3 col-md-5 col-sm-10">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/medico1.png"id="fotomed">
+          <h2 class="fw-normal">Veterinaria</h2>
+          <p>Eugenia Silva es una de nuestras médicas veterinarias. Euge trabaja con nosotros hace mas de 10 años y tiene un don para tratar con animales juguetones.</p>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-10">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/medica2.png"id="fotomed">
+          <h2 class="fw-normal">Cirujana</h2>
+          <p>Raquel López es nuestra cirujana. Forma parte de MICAN desde 2015 y es considerada una de las mejores en la provincia.</p>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-10">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/medico3.png"id="fotomed">
+          <h2 class="fw-normal">Ecógrafo</h2>
+          <p>Lucas Martínez. Ecógrafo y muy buen amigo de todos los animales, en 5 años trabajando en MICAN, nunca tuvo pacientes revoltosos.</p>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-10">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/medica4.png"id="fotomed">
+          <h2 class="fw-normal">Veterinaria</h2>
+          <p>Melina Gómez es veterinaria y forma parte de MICAN desde 2019. Melina es la mas experimentada de todo el equipo.</p>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-10">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="./assets/medico5.png"id="fotomed">
+          <h2 class="fw-normal">Peluquero</h2>
+          <p>Joaquín Moreno es el encargado de lookear a los animales que pasan por MICAN. Su carisma y habilidad lo destacan. </p>
+        </div>
+        <div class="col-lg-3 col-md-5 col-sm-10">
+          <img class="bd-placeholder-img rounded-circle " width="140" height="140" src="./assets/medico6.png"id="fotomed">
+          <h2 class="fw-normal">Auxiliar de Veterinaria</h2>
+          <p>Marcos Torres es nuestro auxiliar, forma parte de MICAN desde 2020 y es el mas joven de todo el equipo.</p>
+        </div>                
+      </div>
     </div>
+  </main>
+  
+  <!-- FOTOS -->
+
+  <section id="galeria" class="container">
+    <div class="text-center pt-5">
+      <h1 style="text-align:center;padding: 20px;"><a name="linkvet" id="linkvet"><b>NUESTRA VETERINARIA</b></a></h1>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-xs 12">
+        <img src="./assets/local1.png">
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs 12">
+        <img src="./assets/local2.png">
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs 12">
+        <img src="./assets/local3.png">
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs 12">
+        <img src="./assets/local4.png">
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs 12">
+        <img src="./assets/local5.png">
+      </div>
+      <div class="col-lg-4 col-md-6 col-xs 12">
+        <img src="./assets/local6.png">
+      </div>
+    </div>
+
+  </section>
+  <!-- FOOTER -->
+  <footer class="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <ul>
+         <li><a href="index.html">Inicio</a></li>
+         <li><a href="productos.html">Productos</a></li>
+         <li><a href="quienessomos.html">Quienes somos</a></li>
+         <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="box">
+        <h4>SEGUINOS</h4>
+        <div class="red-social">
+          <a href="https://www.facebook.com/profile.php?id=100094210688427" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/micanarg/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/Micanarg" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com/@micanarg" class="fa fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="grupo-2">
+      <small>&copy; 2023 <b>Emanuel Pintor</b> - Todos los Derechos Reservados.</small>
+    </div>
+  </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
