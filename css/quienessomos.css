@@ -146,51 +146,24 @@ nav{
     width: 100%;
     background-color: rgb(88, 176, 181);
 }
-.grupo-1{
-    width: 100%;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding:25px 0px;
-}
-.box li{
-    padding: 10px;
-    display: inline-block;
-    
-}
-.box a{
-    font-size: 20px;
-    text-decoration: none;
-    color:#fff;
-    font-weight: 600;
-}
-.box ul{
-    list-style: none;
-}
-.box h4{
-    color: #fff;
-    font-weight:bold;
-    text-align: center;
+.red-social{
+    padding-top: 10px;
 }
 .red-social a{
     display: inline-block;
     text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    
     color:#fff;
     margin-right: 10px;
-    background-color:rgb(40, 99, 102);
+    background-color:rgb(2, 19, 20);
     border-radius: 20px;
     text-align: center;
     transition: all 300ms ease;
 }
-.pie-pagina .grupo-1 .red-social a:hover{
-    color: rgb(0, 0, 0);
-}
-.box ul li a:hover{
-    color: black;
-}
+
 .pie-pagina .grupo-2{
     background-color: rgb(40, 99, 102);
     padding: 15px 10px;
@@ -201,22 +174,11 @@ nav{
     font-size: 15px;
 }
 @media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
-    }
-    .box ul li a, .box h2{
-        font-size: 16px!important;
-     }
+
     .red-social a{
-        width: 30px;
-        height: 30px;
-        line-height:30px;
+        width: 25px;
+        height: 25px;
+        line-height:25px;
         
-    }
-    .box h4{
-        text-align: center;
     }
 }   
