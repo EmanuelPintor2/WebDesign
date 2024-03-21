@@ -40,7 +40,7 @@ nav{
     padding-bottom: 30px;
 }
 .col-lg-3{
-    border: 10px solid rgb(40, 99, 102);
+    border: 5px solid rgb(40, 99, 102);
     border-radius: 20px;
     text-align: center;
     /* display: flex; */
@@ -50,7 +50,7 @@ nav{
 }
 .col-lg-3:hover{
     font-weight: bolder;
-    background-color: rgb(44, 152, 160);
+    background-color: rgb(152, 197, 201);
 }
 @media screen and (max-width:576px) {
     .row{
@@ -137,8 +137,8 @@ nav{
 }
 
 #galeria img:hover{
-    border: 5px solid rgb(40, 99, 102);
-    border-radius: 20px;
+    border: 2px solid rgb(40, 99, 102);
+    
 }
 
 /* FOOTER */
